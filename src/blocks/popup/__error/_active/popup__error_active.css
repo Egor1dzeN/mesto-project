@@ -1,0 +1,4 @@
+.popup__error_active {
+    display: inline;
+    border-bottom-color: red;
+}
