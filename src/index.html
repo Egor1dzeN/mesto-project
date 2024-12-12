@@ -6,12 +6,13 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Mesto</title>
-  <link rel="stylesheet" href="./pages/index.css">
+<!--  <link rel="stylesheet" href="./pages/index.css">-->
 </head>
 <body class="page">
 <div class="page__content">
   <header class="header page__section">
-    <img src="images/logo.svg" alt="Логотип проекта масто" class="logo header__logo">
+<!--    <img src="images/logo.svg" alt="Логотип проекта масто" class="logo header__logo">-->
+    <img class="header__logo" src="<%=require('./images/logo.svg')%>" alt="Логотип Mesto Russia">
   </header>
   <main class="content">
     <section class="profile page__section">
@@ -78,11 +79,12 @@
       <h2 class="card__title">
       </h2>
       <button type="button" class="card__like-button"></button>
+      <div class="places__count-like"></div>
     </div>
   </li>
 </template>
-<script src="index.js" defer></script>
-<script src="./scripts/cards.js"></script>
+<!--<script type="module" src="index.js" ></script>-->
+
 
 </body>
 </html>
